@@ -94,9 +94,9 @@
         <property name="geometry">
          <rect>
           <x>0</x>
-          <y>-276</y>
+          <y>-497</y>
           <width>779</width>
-          <height>871</height>
+          <height>1045</height>
          </rect>
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -839,18 +839,389 @@
              <property name="minimumSize">
               <size>
                <width>0</width>
-               <height>200</height>
+               <height>105</height>
               </size>
              </property>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>200</height>
+               <height>105</height>
               </size>
              </property>
              <property name="title">
               <string>Hazard Identification</string>
              </property>
+             <layout class="QGridLayout" name="gridLayout_2">
+              <item row="0" column="0">
+               <layout class="QGridLayout" name="glay_HazardIdentification">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <property name="spacing">
+                 <number>10</number>
+                </property>
+                <item row="0" column="0">
+                 <widget class="QLabel" name="lbl_Identification">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Is the risk originating from an input, output or control failure in the activity, process or place?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  </property>
+                  <property name="wordWrap">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="1">
+                 <widget class="QComboBox" name="cbx_Identification">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QLabel" name="lbl_Failure">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select the relevant input, output or control failure&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="1">
+                 <widget class="QComboBox" name="cbx_Failure">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="gpb_RiskDescription">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>259</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>259</height>
+              </size>
+             </property>
+             <property name="title">
+              <string>Risk Description</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_2">
+              <item>
+               <layout class="QVBoxLayout" name="vlay_RiskDescription">
+                <property name="spacing">
+                 <number>10</number>
+                </property>
+                <item>
+                 <layout class="QGridLayout" name="glay_ImpactOn">
+                  <property name="spacing">
+                   <number>10</number>
+                  </property>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="lbl_ImpactOn">
+                    <property name="minimumSize">
+                     <size>
+                      <width>120</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>120</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Impact on</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="1">
+                   <widget class="QCheckBox" name="chb_Safety">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Safety</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="2">
+                   <widget class="QCheckBox" name="chk_Health">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Health</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="3">
+                   <widget class="QCheckBox" name="chk_Environmentt">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Environment</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="4">
+                   <widget class="QCheckBox" name="chk_Production">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Production</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QGridLayout" name="gridLayout_5">
+                  <property name="spacing">
+                   <number>10</number>
+                  </property>
+                  <item row="2" column="0">
+                   <widget class="QLabel" name="label_3">
+                    <property name="minimumSize">
+                     <size>
+                      <width>120</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>120</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Hazard Category</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="3" column="0">
+                   <widget class="QLabel" name="label_4">
+                    <property name="minimumSize">
+                     <size>
+                      <width>120</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>120</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Risk Description</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="label">
+                    <property name="minimumSize">
+                     <size>
+                      <width>120</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>120</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Aspect/Hazard</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QLabel" name="label_2">
+                    <property name="minimumSize">
+                     <size>
+                      <width>120</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>120</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Impact/Risk</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="1">
+                   <widget class="QComboBox" name="comboBox">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="1">
+                   <widget class="QComboBox" name="comboBox_2">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="1">
+                   <widget class="QComboBox" name="comboBox_3">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="3" column="1">
+                   <widget class="QPlainTextEdit" name="plainTextEdit">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>60</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>60</height>
+                     </size>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+             </layout>
             </widget>
            </item>
           </layout>

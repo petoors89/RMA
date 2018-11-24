@@ -9,8 +9,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     statusBar()->showMessage("Connected to RMA Database. Connected as User: "+currentUser);
 }
 
-MainWindow::~MainWindow()
-{
+MainWindow::~MainWindow() {
     delete ui;
 }
 
