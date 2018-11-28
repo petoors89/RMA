@@ -1,4 +1,5 @@
 #include <QApplication>
+#include <QDir>
 #include <QHostInfo>
 #include <QByteArray>
 #include <stdlib.h>
@@ -9,11 +10,12 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
+    databasePath = QDir::currentPath() + "/Data/RMA-Data.accdb";
     currentUser = QString::fromLocal8Bit(qgetenv("USERNAME"));
     currentHostame = QHostInfo::localHostName();
 
     QSqlDatabase db = QSqlDatabase::addDatabase("QODBC3");
-    db.setDatabaseName("Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ="+databasePath+";PWD="+databasePassword+"");
+    db.setDatabaseName("Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ="+databasePath+";Uid="+currentUser+";Pwd="+databasePassword+"");
 
     int i = 0;
 

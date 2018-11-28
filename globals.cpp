@@ -1,7 +1,7 @@
 #include "globals.h"
 #include <QString>
 
-QString databasePath = "C:/Users/epret/Documents/Projects/RMA/release/Data/RMA-Data.accdb";
+QString databasePath = "";
 QString databasePassword = "MAtiMbA@23";
 QString currentUser = "";
 QString currentHostame = "";

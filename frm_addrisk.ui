@@ -94,12 +94,27 @@
         <property name="geometry">
          <rect>
           <x>0</x>
-          <y>-769</y>
-          <width>779</width>
-          <height>1317</height>
+          <y>-1420</y>
+          <width>775</width>
+          <height>2083</height>
          </rect>
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_3">
+         <property name="spacing">
+          <number>10</number>
+         </property>
+         <property name="leftMargin">
+          <number>5</number>
+         </property>
+         <property name="topMargin">
+          <number>5</number>
+         </property>
+         <property name="rightMargin">
+          <number>5</number>
+         </property>
+         <property name="bottomMargin">
+          <number>5</number>
+         </property>
          <item>
           <layout class="QVBoxLayout" name="vlay_Scrolll">
            <property name="spacing">
@@ -276,13 +291,13 @@
                    <widget class="QLabel" name="lbl_RiskNumber">
                     <property name="minimumSize">
                      <size>
-                      <width>60</width>
+                      <width>100</width>
                       <height>30</height>
                      </size>
                     </property>
                     <property name="maximumSize">
                      <size>
-                      <width>60</width>
+                      <width>100</width>
                       <height>30</height>
                      </size>
                     </property>
@@ -336,13 +351,13 @@
                    <widget class="QLabel" name="lbl_RiskTitle">
                     <property name="minimumSize">
                      <size>
-                      <width>60</width>
+                      <width>100</width>
                       <height>30</height>
                      </size>
                     </property>
                     <property name="maximumSize">
                      <size>
-                      <width>60</width>
+                      <width>100</width>
                       <height>30</height>
                      </size>
                     </property>
@@ -395,6 +410,21 @@
               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_5">
+              <property name="spacing">
+               <number>10</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
               <item>
                <layout class="QGridLayout" name="glay_RiskProfile">
                 <property name="leftMargin">
@@ -438,13 +468,13 @@
                  <widget class="QRadioButton" name="rbtn_BusinessRisk">
                   <property name="minimumSize">
                    <size>
-                    <width>200</width>
+                    <width>230</width>
                     <height>30</height>
                    </size>
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>200</width>
+                    <width>230</width>
                     <height>30</height>
                    </size>
                   </property>
@@ -501,13 +531,13 @@
                  <widget class="QRadioButton" name="rbtn_IssueRisk">
                   <property name="minimumSize">
                    <size>
-                    <width>200</width>
+                    <width>230</width>
                     <height>30</height>
                    </size>
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>200</width>
+                    <width>230</width>
                     <height>30</height>
                    </size>
                   </property>
@@ -520,13 +550,13 @@
                  <widget class="QRadioButton" name="rbtn_TaskRisk">
                   <property name="minimumSize">
                    <size>
-                    <width>200</width>
+                    <width>230</width>
                     <height>30</height>
                    </size>
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>200</width>
+                    <width>230</width>
                     <height>30</height>
                    </size>
                   </property>
@@ -539,13 +569,13 @@
                  <widget class="QRadioButton" name="rbtn_BaselineRisk">
                   <property name="minimumSize">
                    <size>
-                    <width>200</width>
+                    <width>230</width>
                     <height>30</height>
                    </size>
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>200</width>
+                    <width>230</width>
                     <height>30</height>
                    </size>
                   </property>
@@ -599,6 +629,21 @@
               <string>Risk Management Structure</string>
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_4">
+              <property name="spacing">
+               <number>10</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
               <item>
                <layout class="QVBoxLayout" name="vlay_RiskStructure">
                 <property name="spacing">
@@ -656,13 +701,13 @@
                    <widget class="QLabel" name="lbl_Department">
                     <property name="minimumSize">
                      <size>
-                      <width>250</width>
+                      <width>280</width>
                       <height>30</height>
                      </size>
                     </property>
                     <property name="maximumSize">
                      <size>
-                      <width>250</width>
+                      <width>280</width>
                       <height>30</height>
                      </size>
                     </property>
@@ -675,13 +720,13 @@
                    <widget class="QLabel" name="lbl_Section">
                     <property name="minimumSize">
                      <size>
-                      <width>250</width>
+                      <width>280</width>
                       <height>30</height>
                      </size>
                     </property>
                     <property name="maximumSize">
                      <size>
-                      <width>250</width>
+                      <width>280</width>
                       <height>30</height>
                      </size>
                     </property>
@@ -694,13 +739,13 @@
                    <widget class="QLabel" name="lbl_Task">
                     <property name="minimumSize">
                      <size>
-                      <width>250</width>
+                      <width>280</width>
                       <height>30</height>
                      </size>
                     </property>
                     <property name="maximumSize">
                      <size>
-                      <width>250</width>
+                      <width>280</width>
                       <height>30</height>
                      </size>
                     </property>
@@ -713,13 +758,13 @@
                    <widget class="QLabel" name="lbl_Function">
                     <property name="minimumSize">
                      <size>
-                      <width>250</width>
+                      <width>280</width>
                       <height>30</height>
                      </size>
                     </property>
                     <property name="maximumSize">
                      <size>
-                      <width>250</width>
+                      <width>280</width>
                       <height>30</height>
                      </size>
                     </property>
@@ -732,13 +777,13 @@
                    <widget class="QLabel" name="lbl_TaskStep">
                     <property name="minimumSize">
                      <size>
-                      <width>250</width>
+                      <width>280</width>
                       <height>30</height>
                      </size>
                     </property>
                     <property name="maximumSize">
                      <size>
-                      <width>250</width>
+                      <width>280</width>
                       <height>30</height>
                      </size>
                     </property>
@@ -852,19 +897,34 @@
               <string>Hazard Identification</string>
              </property>
              <layout class="QGridLayout" name="gridLayout_2">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <property name="spacing">
+               <number>10</number>
+              </property>
               <item row="0" column="0">
                <layout class="QGridLayout" name="glay_HazardIdentification">
                 <property name="leftMargin">
-                 <number>0</number>
+                 <number>5</number>
                 </property>
                 <property name="topMargin">
-                 <number>0</number>
+                 <number>5</number>
                 </property>
                 <property name="rightMargin">
-                 <number>0</number>
+                 <number>5</number>
                 </property>
                 <property name="bottomMargin">
-                 <number>0</number>
+                 <number>5</number>
                 </property>
                 <property name="spacing">
                  <number>10</number>
@@ -965,10 +1025,37 @@
               <string>Risk Description</string>
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_2">
+              <property name="spacing">
+               <number>10</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
               <item>
                <layout class="QVBoxLayout" name="vlay_RiskDescription">
                 <property name="spacing">
                  <number>10</number>
+                </property>
+                <property name="leftMargin">
+                 <number>5</number>
+                </property>
+                <property name="topMargin">
+                 <number>5</number>
+                </property>
+                <property name="rightMargin">
+                 <number>5</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>5</number>
                 </property>
                 <item>
                  <layout class="QGridLayout" name="glay_ImpactOn">
@@ -1236,13 +1323,40 @@
               <string>Risk Assessment</string>
              </property>
              <layout class="QGridLayout" name="gridLayout_4">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <property name="spacing">
+               <number>10</number>
+              </property>
               <item row="0" column="0">
                <layout class="QGridLayout" name="glay_RiskAssessment">
+                <property name="leftMargin">
+                 <number>5</number>
+                </property>
+                <property name="topMargin">
+                 <number>5</number>
+                </property>
+                <property name="rightMargin">
+                 <number>5</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>5</number>
+                </property>
                 <property name="spacing">
                  <number>10</number>
                 </property>
                 <item row="0" column="0">
-                 <layout class="QHBoxLayout" name="horizontalLayout">
+                 <layout class="QHBoxLayout" name="hlay_RiskAssessment">
                   <property name="spacing">
                    <number>10</number>
                   </property>
@@ -1253,12 +1367,12 @@
                     </property>
                     <layout class="QGridLayout" name="gridLayout_6">
                      <item row="0" column="0">
-                      <layout class="QGridLayout" name="gridLayout">
+                      <layout class="QGridLayout" name="glay_OperationalRisk">
                        <property name="spacing">
                         <number>10</number>
                        </property>
                        <item row="3" column="1">
-                        <widget class="QComboBox" name="comboBox_4">
+                        <widget class="QComboBox" name="cbx_Severity">
                          <property name="minimumSize">
                           <size>
                            <width>0</width>
@@ -1274,7 +1388,7 @@
                         </widget>
                        </item>
                        <item row="0" column="1">
-                        <widget class="QComboBox" name="comboBox">
+                        <widget class="QComboBox" name="cbx_Scale">
                          <property name="minimumSize">
                           <size>
                            <width>0</width>
@@ -1290,7 +1404,7 @@
                         </widget>
                        </item>
                        <item row="1" column="0">
-                        <widget class="QLabel" name="label_2">
+                        <widget class="QLabel" name="lbl_Duration">
                          <property name="minimumSize">
                           <size>
                            <width>60</width>
@@ -1309,7 +1423,7 @@
                         </widget>
                        </item>
                        <item row="0" column="0">
-                        <widget class="QLabel" name="label">
+                        <widget class="QLabel" name="lbl_Scale">
                          <property name="minimumSize">
                           <size>
                            <width>60</width>
@@ -1328,7 +1442,7 @@
                         </widget>
                        </item>
                        <item row="2" column="0">
-                        <widget class="QLabel" name="label_3">
+                        <widget class="QLabel" name="lbl_Probability">
                          <property name="minimumSize">
                           <size>
                            <width>60</width>
@@ -1347,7 +1461,7 @@
                         </widget>
                        </item>
                        <item row="1" column="1">
-                        <widget class="QComboBox" name="comboBox_2">
+                        <widget class="QComboBox" name="cbx_Duration">
                          <property name="minimumSize">
                           <size>
                            <width>0</width>
@@ -1363,7 +1477,7 @@
                         </widget>
                        </item>
                        <item row="0" column="2">
-                        <widget class="QLabel" name="label_6">
+                        <widget class="QLabel" name="lbl_RiskTotal">
                          <property name="minimumSize">
                           <size>
                            <width>60</width>
@@ -1382,7 +1496,7 @@
                         </widget>
                        </item>
                        <item row="4" column="0">
-                        <widget class="QLabel" name="label_5">
+                        <widget class="QLabel" name="lbl_Severity_2">
                          <property name="minimumSize">
                           <size>
                            <width>60</width>
@@ -1401,7 +1515,7 @@
                         </widget>
                        </item>
                        <item row="1" column="2">
-                        <widget class="QLabel" name="label_7">
+                        <widget class="QLabel" name="lbl_RiskClass">
                          <property name="minimumSize">
                           <size>
                            <width>60</width>
@@ -1420,7 +1534,7 @@
                         </widget>
                        </item>
                        <item row="4" column="1">
-                        <widget class="QComboBox" name="comboBox_5">
+                        <widget class="QComboBox" name="cbx_Frequency">
                          <property name="minimumSize">
                           <size>
                            <width>0</width>
@@ -1436,7 +1550,7 @@
                         </widget>
                        </item>
                        <item row="2" column="1">
-                        <widget class="QComboBox" name="comboBox_3">
+                        <widget class="QComboBox" name="cbx_Probability">
                          <property name="minimumSize">
                           <size>
                            <width>0</width>
@@ -1452,7 +1566,7 @@
                         </widget>
                        </item>
                        <item row="3" column="0">
-                        <widget class="QLabel" name="label_4">
+                        <widget class="QLabel" name="lbl_Severity">
                          <property name="minimumSize">
                           <size>
                            <width>60</width>
@@ -1471,7 +1585,7 @@
                         </widget>
                        </item>
                        <item row="0" column="3">
-                        <widget class="QLabel" name="label_8">
+                        <widget class="QLabel" name="lbl_RiskTotalValue">
                          <property name="minimumSize">
                           <size>
                            <width>60</width>
@@ -1490,7 +1604,7 @@
                         </widget>
                        </item>
                        <item row="1" column="3">
-                        <widget class="QLabel" name="label_9">
+                        <widget class="QLabel" name="lbl_RiskClassValue">
                          <property name="minimumSize">
                           <size>
                            <width>60</width>
@@ -1520,21 +1634,21 @@
                     </property>
                     <layout class="QGridLayout" name="gridLayout_8">
                      <item row="0" column="0">
-                      <layout class="QGridLayout" name="gridLayout_7">
+                      <layout class="QGridLayout" name="glay_MacroRisk">
                        <property name="spacing">
                         <number>10</number>
                        </property>
                        <item row="1" column="0">
-                        <widget class="QLabel" name="label_11">
+                        <widget class="QLabel" name="lbl_MacroProbability">
                          <property name="minimumSize">
                           <size>
-                           <width>100</width>
+                           <width>120</width>
                            <height>30</height>
                           </size>
                          </property>
                          <property name="maximumSize">
                           <size>
-                           <width>100</width>
+                           <width>120</width>
                            <height>30</height>
                           </size>
                          </property>
@@ -1544,16 +1658,16 @@
                         </widget>
                        </item>
                        <item row="2" column="0">
-                        <widget class="QLabel" name="label_12">
+                        <widget class="QLabel" name="lbl_ImpactLevel">
                          <property name="minimumSize">
                           <size>
-                           <width>100</width>
+                           <width>120</width>
                            <height>30</height>
                           </size>
                          </property>
                          <property name="maximumSize">
                           <size>
-                           <width>100</width>
+                           <width>120</width>
                            <height>30</height>
                           </size>
                          </property>
@@ -1563,16 +1677,16 @@
                         </widget>
                        </item>
                        <item row="3" column="0">
-                        <widget class="QLabel" name="label_13">
+                        <widget class="QLabel" name="lbl_ManagementArea">
                          <property name="minimumSize">
                           <size>
-                           <width>100</width>
+                           <width>120</width>
                            <height>30</height>
                           </size>
                          </property>
                          <property name="maximumSize">
                           <size>
-                           <width>100</width>
+                           <width>120</width>
                            <height>30</height>
                           </size>
                          </property>
@@ -1582,16 +1696,16 @@
                         </widget>
                        </item>
                        <item row="0" column="0">
-                        <widget class="QLabel" name="label_10">
+                        <widget class="QLabel" name="lbl_MacroImpact">
                          <property name="minimumSize">
                           <size>
-                           <width>100</width>
+                           <width>120</width>
                            <height>30</height>
                           </size>
                          </property>
                          <property name="maximumSize">
                           <size>
-                           <width>100</width>
+                           <width>120</width>
                            <height>30</height>
                           </size>
                          </property>
@@ -1601,7 +1715,7 @@
                         </widget>
                        </item>
                        <item row="0" column="1">
-                        <widget class="QComboBox" name="comboBox_6">
+                        <widget class="QComboBox" name="cbx_MacroImpact">
                          <property name="minimumSize">
                           <size>
                            <width>0</width>
@@ -1617,7 +1731,7 @@
                         </widget>
                        </item>
                        <item row="1" column="1">
-                        <widget class="QComboBox" name="comboBox_7">
+                        <widget class="QComboBox" name="cbx_MacroProbability">
                          <property name="minimumSize">
                           <size>
                            <width>0</width>
@@ -1633,7 +1747,7 @@
                         </widget>
                        </item>
                        <item row="2" column="1">
-                        <widget class="QLabel" name="label_14">
+                        <widget class="QLabel" name="lbl_MacroImpactValue">
                          <property name="minimumSize">
                           <size>
                            <width>0</width>
@@ -1655,7 +1769,7 @@
                         </widget>
                        </item>
                        <item row="3" column="1">
-                        <widget class="QLabel" name="label_15">
+                        <widget class="QLabel" name="lbl_MacroAreaValue">
                          <property name="minimumSize">
                           <size>
                            <width>0</width>
@@ -1687,6 +1801,664 @@
               </item>
              </layout>
             </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="gpb_RiskControls">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>208</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>208</height>
+              </size>
+             </property>
+             <property name="title">
+              <string>Risk Consequences and Existing Controls</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_9">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <property name="spacing">
+               <number>10</number>
+              </property>
+              <item row="0" column="0">
+               <layout class="QGridLayout" name="glay_RiskControls">
+                <property name="leftMargin">
+                 <number>5</number>
+                </property>
+                <property name="topMargin">
+                 <number>5</number>
+                </property>
+                <property name="rightMargin">
+                 <number>5</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>5</number>
+                </property>
+                <property name="spacing">
+                 <number>10</number>
+                </property>
+                <item row="1" column="0">
+                 <widget class="QLabel" name="lbl_HasProcedure">
+                  <property name="minimumSize">
+                   <size>
+                    <width>220</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>220</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>Procedure/s in place to mitigate risk?</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0">
+                 <widget class="QLabel" name="lbl_RiskConsequence">
+                  <property name="minimumSize">
+                   <size>
+                    <width>220</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>220</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>Risk Consequence</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="1">
+                 <widget class="QLineEdit" name="edt_RiskConsequence">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <widget class="QLabel" name="lbl_Procedures">
+                  <property name="minimumSize">
+                   <size>
+                    <width>220</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>220</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>Procedure number/s</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="1">
+                 <widget class="QPlainTextEdit" name="edt_Procedures">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>100</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>100</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="1">
+                 <widget class="QCheckBox" name="chk_HasProcedure">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="gpb_RiskStrategy">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>304</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>304</height>
+              </size>
+             </property>
+             <property name="title">
+              <string>Risk Management Strategy</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_6">
+              <property name="spacing">
+               <number>10</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <layout class="QVBoxLayout" name="vlay_RiskStrategy">
+                <property name="spacing">
+                 <number>10</number>
+                </property>
+                <property name="leftMargin">
+                 <number>5</number>
+                </property>
+                <property name="topMargin">
+                 <number>5</number>
+                </property>
+                <property name="rightMargin">
+                 <number>5</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>5</number>
+                </property>
+                <item>
+                 <layout class="QGridLayout" name="gridLayout_10">
+                  <property name="spacing">
+                   <number>10</number>
+                  </property>
+                  <item row="0" column="2">
+                   <spacer name="horizontalSpacer_2">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="0" column="1">
+                   <widget class="QComboBox" name="cbx_RiskStrategy">
+                    <property name="minimumSize">
+                     <size>
+                      <width>200</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>200</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="lbl_RiskStrategy">
+                    <property name="minimumSize">
+                     <size>
+                      <width>100</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>100</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Strategy&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QGridLayout" name="gridLayout_12">
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="lbl_ListMitigations">
+                    <property name="minimumSize">
+                     <size>
+                      <width>500</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>500</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;List all mitigation/corrective actions/additional controls&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                    <property name="wordWrap">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="1">
+                   <spacer name="horizontalSpacer">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QGridLayout" name="gridLayout_11">
+                  <property name="spacing">
+                   <number>10</number>
+                  </property>
+                  <item row="0" column="0">
+                   <widget class="QLineEdit" name="edt_ActionDesc">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="2">
+                   <widget class="QDateEdit" name="edt_ActionDate">
+                    <property name="minimumSize">
+                     <size>
+                      <width>100</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>100</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="calendarPopup">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="1">
+                   <widget class="QComboBox" name="cbx_ActionOwner">
+                    <property name="minimumSize">
+                     <size>
+                      <width>200</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>200</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="3">
+                   <widget class="QPushButton" name="btn_AddAction">
+                    <property name="minimumSize">
+                     <size>
+                      <width>80</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>80</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Add</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <widget class="QColumnView" name="cview_RiskActions">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>150</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>150</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="gpb_RiskApprovals">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>220</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>220</height>
+              </size>
+             </property>
+             <property name="title">
+              <string>Risk Approval and Team</string>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_3">
+              <property name="spacing">
+               <number>10</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <layout class="QHBoxLayout" name="hlay_RiskApprovals">
+                <item>
+                 <layout class="QGridLayout" name="glay_RiskApprovals">
+                  <property name="spacing">
+                   <number>10</number>
+                  </property>
+                  <item row="2" column="2">
+                   <spacer name="verticalSpacer_2">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="1" column="1">
+                   <widget class="QComboBox" name="cbx_COManager">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QLabel" name="lbl_RiskCOManager">
+                    <property name="minimumSize">
+                     <size>
+                      <width>120</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>120</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Close Out Manager</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="2">
+                   <widget class="QDateEdit" name="edt_RiskCODate">
+                    <property name="minimumSize">
+                     <size>
+                      <width>100</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>100</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="calendarPopup">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="lbl_RiskCompiler">
+                    <property name="minimumSize">
+                     <size>
+                      <width>120</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>120</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Risk Compiler</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="1">
+                   <widget class="QComboBox" name="cbx_RiskCompiler">
+                    <property name="minimumSize">
+                     <size>
+                      <width>200</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="2">
+                   <widget class="QDateEdit" name="edt_RiskDate">
+                    <property name="minimumSize">
+                     <size>
+                      <width>100</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>100</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="calendarPopup">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="1">
+                   <spacer name="verticalSpacer">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="2" column="0">
+                   <spacer name="verticalSpacer_3">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QGridLayout" name="glay_RiskTeam">
+                <item row="0" column="0">
+                 <widget class="QLabel" name="lbl_RiskTeam">
+                  <property name="minimumSize">
+                   <size>
+                    <width>65</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>65</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>Risk Team</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <spacer name="verticalSpacer_4">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="vlay_RiskTeam">
+                <item>
+                 <widget class="QPlainTextEdit" name="edt_RiskTeam">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>200</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>200</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <layout class="QGridLayout" name="gridLayout_14"/>
            </item>
           </layout>
          </item>
